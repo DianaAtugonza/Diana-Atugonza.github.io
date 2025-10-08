@@ -6,10 +6,38 @@
     <title>Bookings</title>
 </head>
 <body>
-    <h2>BOOK YOUR ROOM</h2>
-    <P>Fill the form below to get a room with us</P>
-    <form action="https://formspree.io/f/xwprborq"method="POST">
-        <label for ="First name"class="Surname">Name</label>
+    <h2 style="font-size: 2.5rem;margin-bottom:1rem;font-style: oblique;text-align: center;">BOOK YOUR ROOM</h2>
+    <P style="font-size: 1.5rem;margin-bottom:0.5rem;font-style: oblique; text-align:center;">Fill the form below to get a room with us</P>
+    <form action="https://formspree.io/f/xwprborq"method="POST" style="max-width:50%;margin: 0 auto;padding:20px;background:#f9f9f9;border-radius:10px;">
+        <label for ="First name"class="Surname">Name</label><br>
+        <input type="text"style="width:150%;padding:15px;border:4px solid #ddd;border-radius:10px;font-size:20px;"
+        id="name"name="name"required>
+    </p>
+    <p><label for="age">Age:</label>
+    <input type="age"id="age"name="age"style="width:150%;padding:15px;border:4px solid #ddd;border-radius:10px;font-size:20px;"required>
+</p>
+<p><label for="gender">Gender:</label>
+<input type="gender"id="gender"name="gender"style="width:150%;padding:15px;border:4px solid #ddd;border-radius:10px;font-size:20px;"required>
+</p>
+<p><label for="program">Program:</label>
+<input type="program"id="program"name="program"style="width:150%;padding:15px;border:4px solid #ddd;border-radius:10px;font-size:20px;"required>
+</p>
+<p><label for="Year">Year of Study:</label>
+<input type="year"id="year"name="year"style="width:150%;padding:15px;border:4px solid #ddd;border-radius:10px;font-size:20px;"required>
+</p>
+<p><label for="semester">Semester:</label>
+<input type="semester"id="semester"name="semester"style="width:150%;padding:15px;border:4px solid #ddd;border-radius:10px;font-size:20px;"required>
+</p>
+<p><label for="room">Room:</label>
+<input type="room"id="room"name="room"style="width:150%;padding:15px;border:4px solid #ddd;border-radius:10px;font-size:20px;"required>
+</p>
+    <p><label for="email">Your Email:</label><br>
+    <input type="email"id="email"name="email"style="width:150%;padding:15px;border:4px solid #ccc;border-radius:10px;font-size:20px;"required>
+</p>
+    <p><label for="contact">Your Contact:</label><br>
+    <input type="contact"id="contact"name="contact"style="width:150%;padding:15px;border:4px solid #ddd;border-radius:10px;font-size:20px;"required></p>
+    <button type="submit"style="background:#007bff;color:white;padding:12px 30px;border:none;border-radius:5px;font-size:16px;cursor:pointer;">Submit</button>
+
         
     </form>
     
