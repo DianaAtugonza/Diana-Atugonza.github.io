@@ -3,10 +3,10 @@
     --primary-color: #4361ee;
     --secondary-color: #3a0ca3;
     --accent-color: #4cc9f0;
-    --text-color: #333;
-    --text-light: #6c757d;
-    --bg-color: #fff;
-    --bg-light: #f8f9fa;
+    --text-color: #131313;
+    --text-light: #161617;
+    --bg-color: #e1e3e6;
+    --bg-light: #a3a5a7;
     --border-color: #e9ecef;
     --shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
     --transition: all 0.3s ease;
@@ -40,7 +40,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(249, 248, 248, 0.95);
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     z-index: 1000;
